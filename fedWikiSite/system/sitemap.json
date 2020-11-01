@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "action-fields",
+    "title": "Action Fields",
+    "date": 1490580007227,
+    "synopsis": "The journal describes the history of the current page contents. We intend that any earlier revision can be reconstructed by replaying actions. The client sends actions to the server and adds them to the displayed pages when the request returns."
+  },
+  {
+    "slug": "common-names",
+    "title": "Common Names",
+    "date": 1420345640112,
+    "synopsis": "We describe names we use (or would like to use) and the conventions that produce them. These evolve. Newer conventions are marked ☼."
+  },
+  {
+    "slug": "federated-wiki-specifications",
+    "title": "Federated Wiki Specifications",
+    "date": 1490577675845,
+    "synopsis": "We describe what we expect of a federated wiki site drawing on some early documentation and reading of the source code. We aspire to be more informative than definitive though this could change."
+  },
+  {
+    "slug": "federating-foreign-servers",
+    "title": "Federating Foreign Servers",
+    "date": 1441899529983,
+    "synopsis": "We consider what requests a server must handle in order to participate in wiki's federation. Such a server provides pages without taking responsibility for the client-side javascript conventionally used by federated wiki."
+  },
+  {
+    "slug": "historical-documentation",
+    "title": "Historical Documentation",
+    "date": 1490575358538,
+    "synopsis": "Federated wiki grew from a working prototype. Server facing tests got us through the transition from ruby to node in coffeescript. We've written behavioral summaries since when asked."
+  },
+  {
+    "slug": "item-fields",
+    "title": "Item Fields",
+    "date": 1490578032062,
+    "synopsis": "The story consists of linearly ordered items. Add and edit actions also include a copy of the manipulated item."
+  },
+  {
+    "slug": "json-schema",
+    "title": "JSON Schema",
+    "date": 1418516871338,
+    "synopsis": "We define the schema for federated wiki pages to the depth that we know it. We use a BNF-like notation to suggest JSON elements. Any ambiguity will be resolved by examining the example. We close with a brief reflection on the successes of the format."
+  },
+  {
+    "slug": "names-of-things",
+    "title": "Names of Things",
+    "date": 1434987578404,
+    "synopsis": "We throw around a lot of terms when we talk about federated wiki that come from a variety of sources. Here we look at the sources and mention the most common names they provide."
+  },
+  {
+    "slug": "page-fields",
+    "title": "Page Fields",
+    "date": 1490577949168,
+    "synopsis": "A page represents the data that is transmitted between and stored within sites. A page may be accompanied by metadata such as the site from which it has been fetched."
+  },
+  {
+    "slug": "ward-cunningham",
+    "title": "Ward Cunningham",
+    "date": 1490625644206,
+    "synopsis": "When we embarked on this project we thought we would be designing server to server protocols. This evolved quickly to clients leaving notes for each other on otherwise undistinguished servers. We've enjoyed the ability to invent. Having invented, we must now support further growth by being clear about what we have found that works."
+  },
+  {
+    "slug": "welcome-visitors",
+    "title": "Welcome Visitors",
+    "date": 1490573929289,
+    "synopsis": "Welcome to this [[Federated Wiki]] site. From this page you can find who we are and what we do. New sites provide this information and then claim the site as their own. You will need your own site to participate."
+  }
+]

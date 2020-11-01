@@ -1,0 +1,87 @@
+{
+  "title": "Item Fields",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "f39a1d8da3960133",
+      "text": "The story consists of linearly ordered items. Add and edit actions also include a copy of the manipulated item."
+    },
+    {
+      "type": "paragraph",
+      "id": "8c0ccc6297bec020",
+      "text": "# type"
+    },
+    {
+      "type": "paragraph",
+      "id": "2768a0215523f733",
+      "text": "# id"
+    },
+    {
+      "type": "paragraph",
+      "id": "651074935845c868",
+      "text": "# text"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Item Fields",
+        "story": []
+      },
+      "date": 1490577515257
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f39a1d8da3960133"
+      },
+      "id": "f39a1d8da3960133",
+      "type": "add",
+      "date": 1490577526137
+    },
+    {
+      "type": "edit",
+      "id": "f39a1d8da3960133",
+      "item": {
+        "type": "paragraph",
+        "id": "f39a1d8da3960133",
+        "text": "The story consists of linearly ordered items. Add and edit actions also include a copy of the manipulated item."
+      },
+      "date": 1490577624051
+    },
+    {
+      "type": "add",
+      "id": "8c0ccc6297bec020",
+      "item": {
+        "type": "paragraph",
+        "id": "8c0ccc6297bec020",
+        "text": "# type"
+      },
+      "after": "f39a1d8da3960133",
+      "date": 1490577986328
+    },
+    {
+      "type": "add",
+      "id": "2768a0215523f733",
+      "item": {
+        "type": "paragraph",
+        "id": "2768a0215523f733",
+        "text": "# id"
+      },
+      "after": "8c0ccc6297bec020",
+      "date": 1490577991864
+    },
+    {
+      "type": "add",
+      "id": "651074935845c868",
+      "item": {
+        "type": "paragraph",
+        "id": "651074935845c868",
+        "text": "# text"
+      },
+      "after": "2768a0215523f733",
+      "date": 1490578032062
+    }
+  ]
+}

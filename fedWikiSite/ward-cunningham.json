@@ -1,0 +1,55 @@
+{
+  "title": "Ward Cunningham",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "47ae592830a2de89",
+      "text": "When we embarked on this project we thought we would be designing server to server protocols. This evolved quickly to clients leaving notes for each other on otherwise undistinguished servers. We've enjoyed the ability to invent. Having invented, we must now support further growth by being clear about what we have found that works."
+    },
+    {
+      "type": "paragraph",
+      "id": "e98f6a3125af5df2",
+      "text": "Our yellow flag here suggests sunshine, a term also used to describe shedding light into a bureaucracy."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Ward Cunningham",
+        "story": []
+      },
+      "date": 1490625389071
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "47ae592830a2de89"
+      },
+      "id": "47ae592830a2de89",
+      "type": "add",
+      "date": 1490625403087
+    },
+    {
+      "type": "edit",
+      "id": "47ae592830a2de89",
+      "item": {
+        "type": "paragraph",
+        "id": "47ae592830a2de89",
+        "text": "When we embarked on this project we thought we would be designing server to server protocols. This evolved quickly to clients leaving notes for each other on otherwise undistinguished servers. We've enjoyed the ability to invent. Having invented, we must now support further growth by being clear about what we have found that works."
+      },
+      "date": 1490625567328
+    },
+    {
+      "type": "add",
+      "id": "e98f6a3125af5df2",
+      "item": {
+        "type": "paragraph",
+        "id": "e98f6a3125af5df2",
+        "text": "Our yellow flag here suggests sunshine, a term also used to describe shedding light into a bureaucracy."
+      },
+      "after": "47ae592830a2de89",
+      "date": 1490625644206
+    }
+  ]
+}

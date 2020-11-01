@@ -1,0 +1,546 @@
+{
+  "title": "Action Fields",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "7e10646af6bdf90f",
+      "text": "The journal describes the history of the current page contents. We intend that any earlier revision can be reconstructed by replaying actions. The client sends actions to the server and adds them to the displayed pages when the request returns."
+    },
+    {
+      "type": "markdown",
+      "id": "cdf69112bc7a15bf",
+      "text": "# type"
+    },
+    {
+      "type": "paragraph",
+      "id": "74d0ab9f1a6de570",
+      "text": "A limited number of action types are recognized by many widely distributed interpreters. [https://github.com/fedwiki/wiki-client/blob/800a937ffff12fc6cdb1d3faa6e61d9e0037d5bd/lib/revision.coffee#L19-L41 client] [https://github.com/fedwiki/wiki-server/blob/582f138d8e406c166c8f9b97c200ba9a79080515/lib/server.coffee#L512-L548 server]"
+    },
+    {
+      "type": "paragraph",
+      "id": "14c4f6a9e6a45ac3",
+      "text": "Types are create, add, edit, remove, move, and fork. Most actions expect type-specifics fields."
+    },
+    {
+      "type": "html",
+      "id": "856379b07b9e4dd5",
+      "text": "<table>\n<tr><td>[[Create Action]]<td>title, story\n<tr><td>[[Add Action]]<td>item, after\n<tr><td>[[Edit Action]]<td>item\n<tr><td>[[Remove Action]]<td>\n<tr><td>[[Move Action]]<td>order\n<tr><td>[[Fork Action]]<td>site"
+    },
+    {
+      "type": "markdown",
+      "id": "7eb2d145a020b0f0",
+      "text": "# date"
+    },
+    {
+      "type": "paragraph",
+      "id": "2ad751f7ed194560",
+      "text": "All actions can be dated and most are but very old actions aren't. Dates are in javascript milliseconds. Null or undefined dates sort to older than any other date."
+    },
+    {
+      "type": "paragraph",
+      "id": "1ce893d6854e49f6",
+      "text": "Sitemaps report the date of the most recent action that is not a fork. This convention classifies twins as category same when they have been forked but not edited."
+    },
+    {
+      "type": "markdown",
+      "id": "ea9d1653c54c33dc",
+      "text": "# site"
+    },
+    {
+      "type": "paragraph",
+      "id": "838d4f817bd45534",
+      "text": "Actions that induce forking include the domain name of the originating site."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Action Fields",
+        "story": []
+      },
+      "date": 1490575568625
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7e10646af6bdf90f"
+      },
+      "id": "7e10646af6bdf90f",
+      "type": "add",
+      "date": 1490575571228
+    },
+    {
+      "type": "edit",
+      "id": "7e10646af6bdf90f",
+      "item": {
+        "type": "paragraph",
+        "id": "7e10646af6bdf90f",
+        "text": "The journal describes the history of the current page contents. We intend that any earlier revision can be reconstructed by replaying actions. The client sends actions to the server and adds them to the displayed pages when the request returns."
+      },
+      "date": 1490575748382
+    },
+    {
+      "type": "add",
+      "id": "7eb2d145a020b0f0",
+      "item": {
+        "type": "paragraph",
+        "id": "7eb2d145a020b0f0",
+        "text": "# date"
+      },
+      "after": "7e10646af6bdf90f",
+      "date": 1490575856310
+    },
+    {
+      "type": "add",
+      "id": "2ad751f7ed194560",
+      "item": {
+        "type": "paragraph",
+        "id": "2ad751f7ed194560",
+        "text": "All actions can be dated and most are but very old actions aren't. Dates are in javascript milliseconds. Null or undefined dates sort to older than any other date."
+      },
+      "after": "7eb2d145a020b0f0",
+      "date": 1490576008737
+    },
+    {
+      "type": "add",
+      "id": "1ce893d6854e49f6",
+      "item": {
+        "type": "paragraph",
+        "id": "1ce893d6854e49f6",
+        "text": "Sitemaps report the date of the most recent action that is not a fork. This convention classifies twins as category same when they have been forked but not edited."
+      },
+      "after": "2ad751f7ed194560",
+      "date": 1490576121942
+    },
+    {
+      "type": "edit",
+      "id": "7eb2d145a020b0f0",
+      "item": {
+        "type": "markdown",
+        "id": "7eb2d145a020b0f0",
+        "text": "# date"
+      },
+      "date": 1490576152424
+    },
+    {
+      "type": "add",
+      "id": "ea9d1653c54c33dc",
+      "item": {
+        "type": "paragraph",
+        "id": "ea9d1653c54c33dc",
+        "text": "# site"
+      },
+      "after": "1ce893d6854e49f6",
+      "date": 1490576190150
+    },
+    {
+      "type": "add",
+      "id": "838d4f817bd45534",
+      "item": {
+        "type": "paragraph",
+        "id": "838d4f817bd45534",
+        "text": "Actions that induce forking include the domain name of the originating site."
+      },
+      "after": "ea9d1653c54c33dc",
+      "date": 1490576450430
+    },
+    {
+      "type": "edit",
+      "id": "ea9d1653c54c33dc",
+      "item": {
+        "type": "markdown",
+        "id": "ea9d1653c54c33dc",
+        "text": "# site"
+      },
+      "date": 1490576454978
+    },
+    {
+      "type": "add",
+      "id": "cdf69112bc7a15bf",
+      "item": {
+        "type": "paragraph",
+        "id": "cdf69112bc7a15bf",
+        "text": "# type"
+      },
+      "after": "7e10646af6bdf90f",
+      "date": 1490578113595
+    },
+    {
+      "type": "add",
+      "id": "74d0ab9f1a6de570",
+      "item": {
+        "type": "paragraph",
+        "id": "74d0ab9f1a6de570",
+        "text": "A limited number of actions are recognized by a large number of widely distributed interpreters. "
+      },
+      "after": "cdf69112bc7a15bf",
+      "date": 1490578291807
+    },
+    {
+      "type": "edit",
+      "id": "cdf69112bc7a15bf",
+      "item": {
+        "type": "markdown",
+        "id": "cdf69112bc7a15bf",
+        "text": "# type"
+      },
+      "date": 1490578296007
+    },
+    {
+      "type": "add",
+      "id": "6a7d943addb09daf",
+      "item": {
+        "type": "paragraph",
+        "id": "6a7d943addb09daf",
+        "text": "[[Create Action]]"
+      },
+      "after": "74d0ab9f1a6de570",
+      "date": 1490578324070
+    },
+    {
+      "type": "add",
+      "id": "35ef3b07fd6c861c",
+      "item": {
+        "type": "paragraph",
+        "id": "35ef3b07fd6c861c",
+        "text": "[[Add Action]]"
+      },
+      "after": "6a7d943addb09daf",
+      "date": 1490578332162
+    },
+    {
+      "type": "add",
+      "id": "d8acc196139ec3b9",
+      "item": {
+        "type": "paragraph",
+        "id": "d8acc196139ec3b9",
+        "text": "[[Remove Action]]"
+      },
+      "after": "35ef3b07fd6c861c",
+      "date": 1490578343012
+    },
+    {
+      "type": "add",
+      "id": "361cd963c3f6362f",
+      "item": {
+        "type": "paragraph",
+        "id": "361cd963c3f6362f",
+        "text": "Move Action"
+      },
+      "after": "d8acc196139ec3b9",
+      "date": 1490578354311
+    },
+    {
+      "type": "edit",
+      "id": "361cd963c3f6362f",
+      "item": {
+        "type": "paragraph",
+        "id": "361cd963c3f6362f",
+        "text": "[[Move Action]]"
+      },
+      "date": 1490578366178
+    },
+    {
+      "type": "add",
+      "id": "1d95d908561ff7be",
+      "item": {
+        "type": "paragraph",
+        "id": "1d95d908561ff7be",
+        "text": "[[Fork Action]]"
+      },
+      "after": "361cd963c3f6362f",
+      "date": 1490578441124
+    },
+    {
+      "type": "add",
+      "id": "5679f6b3dece90b2",
+      "item": {
+        "type": "paragraph",
+        "id": "5679f6b3dece90b2",
+        "text": "[[Edit Action]]"
+      },
+      "after": "35ef3b07fd6c861c",
+      "date": 1490578521363
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "856379b07b9e4dd5"
+      },
+      "id": "856379b07b9e4dd5",
+      "type": "add",
+      "after": "838d4f817bd45534",
+      "date": 1490578627040
+    },
+    {
+      "type": "edit",
+      "id": "856379b07b9e4dd5",
+      "item": {
+        "type": "html",
+        "id": "856379b07b9e4dd5",
+        "text": "<table width=100%>\n<tr><td>Create Action\n<tr><td>Add Action\n<tr><td>Edit Action\n<tr><td>Remove Action\n<tr><td>Move Action\n<tr><td>Fork Action\n\n"
+      },
+      "date": 1490578706364
+    },
+    {
+      "type": "edit",
+      "id": "856379b07b9e4dd5",
+      "item": {
+        "type": "html",
+        "id": "856379b07b9e4dd5",
+        "text": "<table width=100%>\n<tr><td>[[Create Action]]<td>\n<tr><td>[[Add Action]]<td>\n<tr><td>[[Edit Action]]<td>\n<tr><td>[[Remove Action]]<td>\n<tr><td>[[Move Action]]<td>\n<tr><td>[[Fork Action]]<td>"
+      },
+      "date": 1490578801150
+    },
+    {
+      "type": "edit",
+      "id": "856379b07b9e4dd5",
+      "item": {
+        "type": "html",
+        "id": "856379b07b9e4dd5",
+        "text": "<table width=100%>\n<tr><td>[[Create Action]]<td>\n<tr><td>[[Add Action]]<td>item\n<tr><td>[[Edit Action]]<td>item\n<tr><td>[[Remove Action]]<td>\n<tr><td>[[Move Action]]<td>\n<tr><td>[[Fork Action]]<td>site"
+      },
+      "date": 1490578857701
+    },
+    {
+      "type": "edit",
+      "id": "856379b07b9e4dd5",
+      "item": {
+        "type": "html",
+        "id": "856379b07b9e4dd5",
+        "text": "<table width=100%>\n<tr><td>[[Create Action]]<td>title story\n<tr><td>[[Add Action]]<td>item\n<tr><td>[[Edit Action]]<td>item\n<tr><td>[[Remove Action]]<td>\n<tr><td>[[Move Action]]<td>\n<tr><td>[[Fork Action]]<td>site"
+      },
+      "date": 1490578922565
+    },
+    {
+      "type": "edit",
+      "id": "856379b07b9e4dd5",
+      "item": {
+        "type": "html",
+        "id": "856379b07b9e4dd5",
+        "text": "<table width=100%>\n<tr><td>[[Create Action]]<td>title story\n<tr><td>[[Add Action]]<td>item after\n<tr><td>[[Edit Action]]<td>item\n<tr><td>[[Remove Action]]<td>\n<tr><td>[[Move Action]]<td>\n<tr><td>[[Fork Action]]<td>site"
+      },
+      "date": 1490578947973
+    },
+    {
+      "type": "edit",
+      "id": "856379b07b9e4dd5",
+      "item": {
+        "type": "html",
+        "id": "856379b07b9e4dd5",
+        "text": "<table width=100%>\n<tr><td>[[Create Action]]<td>title story\n<tr><td>[[Add Action]]<td>item after\n<tr><td>[[Edit Action]]<td>item\n<tr><td>[[Remove Action]]<td>\n<tr><td>[[Move Action]]<td>order\n<tr><td>[[Fork Action]]<td>site"
+      },
+      "date": 1490579041971
+    },
+    {
+      "type": "edit",
+      "id": "856379b07b9e4dd5",
+      "item": {
+        "type": "html",
+        "id": "856379b07b9e4dd5",
+        "text": "<center><table>\n<tr><td>[[Create Action]]<td>title story\n<tr><td>[[Add Action]]<td>item after\n<tr><td>[[Edit Action]]<td>item\n<tr><td>[[Remove Action]]<td>\n<tr><td>[[Move Action]]<td>order\n<tr><td>[[Fork Action]]<td>site"
+      },
+      "date": 1490579107562
+    },
+    {
+      "type": "edit",
+      "id": "856379b07b9e4dd5",
+      "item": {
+        "type": "html",
+        "id": "856379b07b9e4dd5",
+        "text": "<ul><table>\n<tr><td>[[Create Action]]<td>title story\n<tr><td>[[Add Action]]<td>item after\n<tr><td>[[Edit Action]]<td>item\n<tr><td>[[Remove Action]]<td>\n<tr><td>[[Move Action]]<td>order\n<tr><td>[[Fork Action]]<td>site"
+      },
+      "date": 1490579127090
+    },
+    {
+      "type": "move",
+      "order": [
+        "7e10646af6bdf90f",
+        "cdf69112bc7a15bf",
+        "74d0ab9f1a6de570",
+        "856379b07b9e4dd5",
+        "6a7d943addb09daf",
+        "35ef3b07fd6c861c",
+        "5679f6b3dece90b2",
+        "d8acc196139ec3b9",
+        "361cd963c3f6362f",
+        "1d95d908561ff7be",
+        "7eb2d145a020b0f0",
+        "2ad751f7ed194560",
+        "1ce893d6854e49f6",
+        "ea9d1653c54c33dc",
+        "838d4f817bd45534"
+      ],
+      "id": "856379b07b9e4dd5",
+      "date": 1490579158982
+    },
+    {
+      "type": "remove",
+      "id": "1d95d908561ff7be",
+      "date": 1490579170802
+    },
+    {
+      "type": "remove",
+      "id": "361cd963c3f6362f",
+      "date": 1490579173765
+    },
+    {
+      "type": "remove",
+      "id": "d8acc196139ec3b9",
+      "date": 1490579175703
+    },
+    {
+      "type": "remove",
+      "id": "5679f6b3dece90b2",
+      "date": 1490579177189
+    },
+    {
+      "type": "remove",
+      "id": "35ef3b07fd6c861c",
+      "date": 1490579178422
+    },
+    {
+      "type": "remove",
+      "id": "6a7d943addb09daf",
+      "date": 1490579182785
+    },
+    {
+      "type": "edit",
+      "id": "856379b07b9e4dd5",
+      "item": {
+        "type": "html",
+        "id": "856379b07b9e4dd5",
+        "text": "<table>\n<tr><td>[[Create Action]]<td>title story\n<tr><td>[[Add Action]]<td>item after\n<tr><td>[[Edit Action]]<td>item\n<tr><td>[[Remove Action]]<td>\n<tr><td>[[Move Action]]<td>order\n<tr><td>[[Fork Action]]<td>site"
+      },
+      "date": 1490579212532
+    },
+    {
+      "type": "edit",
+      "id": "74d0ab9f1a6de570",
+      "item": {
+        "type": "paragraph",
+        "id": "74d0ab9f1a6de570",
+        "text": "A limited number of actions are recognized by a large number of widely distributed interpreters. Types are create, add, edit, remove, move, and fork."
+      },
+      "date": 1490579328771
+    },
+    {
+      "type": "edit",
+      "id": "74d0ab9f1a6de570",
+      "item": {
+        "type": "paragraph",
+        "id": "74d0ab9f1a6de570",
+        "text": "A limited number of actions are recognized by a large number of widely distributed interpreters. Types are create, add, edit, remove, move, and fork. Most expect additional fields."
+      },
+      "date": 1490579394409
+    },
+    {
+      "type": "edit",
+      "id": "74d0ab9f1a6de570",
+      "item": {
+        "type": "paragraph",
+        "id": "74d0ab9f1a6de570",
+        "text": "A limited number of actions are recognized by a large number of widely distributed interpreters. Types are create, add, edit, remove, move, and fork. Most expect type-specifics fields."
+      },
+      "date": 1490579417481
+    },
+    {
+      "type": "edit",
+      "id": "856379b07b9e4dd5",
+      "item": {
+        "type": "html",
+        "id": "856379b07b9e4dd5",
+        "text": "<table>\n<tr><td>[[Create Action]]<td>title, story\n<tr><td>[[Add Action]]<td>item, after\n<tr><td>[[Edit Action]]<td>item\n<tr><td>[[Remove Action]]<td>\n<tr><td>[[Move Action]]<td>order\n<tr><td>[[Fork Action]]<td>site"
+      },
+      "date": 1490579447945
+    },
+    {
+      "type": "edit",
+      "id": "74d0ab9f1a6de570",
+      "item": {
+        "type": "paragraph",
+        "id": "74d0ab9f1a6de570",
+        "text": "A limited number of actions are recognized by a large number of widely distributed interpreters. Types are create, add, edit, remove, move, and fork. [https://github.com/fedwiki/wiki-client/blob/800a937ffff12fc6cdb1d3faa6e61d9e0037d5bd/lib/revision.coffee#L19-L41 client]"
+      },
+      "date": 1490579675053
+    },
+    {
+      "type": "add",
+      "id": "83b8b28d26d34562",
+      "item": {
+        "type": "paragraph",
+        "id": "83b8b28d26d34562",
+        "text": "Most expect type-specifics fields."
+      },
+      "after": "74d0ab9f1a6de570",
+      "date": 1490579677456
+    },
+    {
+      "type": "edit",
+      "id": "74d0ab9f1a6de570",
+      "item": {
+        "type": "paragraph",
+        "id": "74d0ab9f1a6de570",
+        "text": "A limited number of actions are recognized by a large number of widely distributed interpreters. Types are create, add, edit, remove, move, and fork. [https://github.com/fedwiki/wiki-client/blob/800a937ffff12fc6cdb1d3faa6e61d9e0037d5bd/lib/revision.coffee#L19-L41 client] [https://github.com/fedwiki/wiki-server/blob/582f138d8e406c166c8f9b97c200ba9a79080515/lib/server.coffee#L512-L548 server]"
+      },
+      "date": 1490579917174
+    },
+    {
+      "type": "edit",
+      "id": "74d0ab9f1a6de570",
+      "item": {
+        "type": "paragraph",
+        "id": "74d0ab9f1a6de570",
+        "text": "A limited number of actions are recognized by many widely distributed interpreters. Types are create, add, edit, remove, move, and fork. [https://github.com/fedwiki/wiki-client/blob/800a937ffff12fc6cdb1d3faa6e61d9e0037d5bd/lib/revision.coffee#L19-L41 client] [https://github.com/fedwiki/wiki-server/blob/582f138d8e406c166c8f9b97c200ba9a79080515/lib/server.coffee#L512-L548 server]"
+      },
+      "date": 1490579940926
+    },
+    {
+      "type": "edit",
+      "id": "74d0ab9f1a6de570",
+      "item": {
+        "type": "paragraph",
+        "id": "74d0ab9f1a6de570",
+        "text": "A limited number of actions are recognized by many widely distributed interpreters. [https://github.com/fedwiki/wiki-client/blob/800a937ffff12fc6cdb1d3faa6e61d9e0037d5bd/lib/revision.coffee#L19-L41 client] [https://github.com/fedwiki/wiki-server/blob/582f138d8e406c166c8f9b97c200ba9a79080515/lib/server.coffee#L512-L548 server]"
+      },
+      "date": 1490579969987
+    },
+    {
+      "type": "add",
+      "id": "14c4f6a9e6a45ac3",
+      "item": {
+        "type": "paragraph",
+        "id": "14c4f6a9e6a45ac3",
+        "text": "Types are create, add, edit, remove, move, and fork."
+      },
+      "after": "74d0ab9f1a6de570",
+      "date": 1490579971668
+    },
+    {
+      "type": "remove",
+      "id": "83b8b28d26d34562",
+      "date": 1490579978753
+    },
+    {
+      "type": "edit",
+      "id": "14c4f6a9e6a45ac3",
+      "item": {
+        "type": "paragraph",
+        "id": "14c4f6a9e6a45ac3",
+        "text": "Types are create, add, edit, remove, move, and fork. Most actions expect type-specifics fields."
+      },
+      "date": 1490579989391
+    },
+    {
+      "type": "edit",
+      "id": "74d0ab9f1a6de570",
+      "item": {
+        "type": "paragraph",
+        "id": "74d0ab9f1a6de570",
+        "text": "A limited number of action types are recognized by many widely distributed interpreters. [https://github.com/fedwiki/wiki-client/blob/800a937ffff12fc6cdb1d3faa6e61d9e0037d5bd/lib/revision.coffee#L19-L41 client] [https://github.com/fedwiki/wiki-server/blob/582f138d8e406c166c8f9b97c200ba9a79080515/lib/server.coffee#L512-L548 server]"
+      },
+      "date": 1490580007227
+    }
+  ]
+}

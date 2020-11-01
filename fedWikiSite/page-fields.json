@@ -1,0 +1,129 @@
+{
+  "title": "Page Fields",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "8a9baec855089d7f",
+      "text": "A page represents the data that is transmitted between and stored within sites. A page may be accompanied by metadata such as the site from which it has been fetched."
+    },
+    {
+      "type": "paragraph",
+      "id": "3f6dcb320af7a1a3",
+      "text": "# title"
+    },
+    {
+      "type": "paragraph",
+      "id": "0fd7f966b1692cec",
+      "text": "# story"
+    },
+    {
+      "type": "paragraph",
+      "id": "8cbe5e1c575bacd9",
+      "text": "# journal"
+    },
+    {
+      "type": "paragraph",
+      "id": "a66592afbfe742b1",
+      "text": "# plugin"
+    },
+    {
+      "type": "paragraph",
+      "id": "cf98b4e3bfe7a3c9",
+      "text": "# synopsis"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Page Fields",
+        "story": []
+      },
+      "date": 1490577690633
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8a9baec855089d7f"
+      },
+      "id": "8a9baec855089d7f",
+      "type": "add",
+      "date": 1490577700356
+    },
+    {
+      "type": "edit",
+      "id": "8a9baec855089d7f",
+      "item": {
+        "type": "paragraph",
+        "id": "8a9baec855089d7f",
+        "text": "A page represents the data that is transmitted between and stored within sites."
+      },
+      "date": 1490577790725
+    },
+    {
+      "type": "edit",
+      "id": "8a9baec855089d7f",
+      "item": {
+        "type": "paragraph",
+        "id": "8a9baec855089d7f",
+        "text": "A page represents the data that is transmitted between and stored within sites. A page may be accompanied by metadata such as the site from which it has been fetched."
+      },
+      "date": 1490577849940
+    },
+    {
+      "type": "add",
+      "id": "3f6dcb320af7a1a3",
+      "item": {
+        "type": "paragraph",
+        "id": "3f6dcb320af7a1a3",
+        "text": "# title"
+      },
+      "after": "8a9baec855089d7f",
+      "date": 1490577905745
+    },
+    {
+      "type": "add",
+      "id": "0fd7f966b1692cec",
+      "item": {
+        "type": "paragraph",
+        "id": "0fd7f966b1692cec",
+        "text": "# story"
+      },
+      "after": "3f6dcb320af7a1a3",
+      "date": 1490577910153
+    },
+    {
+      "type": "add",
+      "id": "8cbe5e1c575bacd9",
+      "item": {
+        "type": "paragraph",
+        "id": "8cbe5e1c575bacd9",
+        "text": "# journal"
+      },
+      "after": "0fd7f966b1692cec",
+      "date": 1490577919791
+    },
+    {
+      "type": "add",
+      "id": "a66592afbfe742b1",
+      "item": {
+        "type": "paragraph",
+        "id": "a66592afbfe742b1",
+        "text": "# plugin"
+      },
+      "after": "8cbe5e1c575bacd9",
+      "date": 1490577942535
+    },
+    {
+      "type": "add",
+      "id": "cf98b4e3bfe7a3c9",
+      "item": {
+        "type": "paragraph",
+        "id": "cf98b4e3bfe7a3c9",
+        "text": "# synopsis"
+      },
+      "after": "a66592afbfe742b1",
+      "date": 1490577949168
+    }
+  ]
+}
