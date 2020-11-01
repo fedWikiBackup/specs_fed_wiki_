@@ -1,0 +1,198 @@
+{
+  "title": "Federated Wiki Specifications",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "a5abce71bc2f0d9d",
+      "text": "We describe what we expect of a federated wiki site drawing on some early documentation and reading of the source code. We aspire to be more informative than definitive though this could change."
+    },
+    {
+      "type": "paragraph",
+      "id": "77614290da61ace4",
+      "text": "[[Historical Documentation]]"
+    },
+    {
+      "type": "pagefold",
+      "id": "eef301b55f24bdf3",
+      "text": "in progress"
+    },
+    {
+      "type": "paragraph",
+      "id": "d239d80fec6e6056",
+      "text": "[[Page Fields]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "50f93b93d386a37e",
+      "text": "[[Item Fields]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "10d632f1c8b79206",
+      "text": "[[Action Fields]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Federated Wiki Specifications",
+        "story": []
+      },
+      "date": 1490573933535
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a5abce71bc2f0d9d"
+      },
+      "id": "a5abce71bc2f0d9d",
+      "type": "add",
+      "date": 1490573936079
+    },
+    {
+      "type": "edit",
+      "id": "a5abce71bc2f0d9d",
+      "item": {
+        "type": "paragraph",
+        "id": "a5abce71bc2f0d9d",
+        "text": "We describe what we expect of a federated wiki site drawing on some early documentation and reading of the source code."
+      },
+      "date": 1490574184872
+    },
+    {
+      "type": "edit",
+      "id": "a5abce71bc2f0d9d",
+      "item": {
+        "type": "paragraph",
+        "id": "a5abce71bc2f0d9d",
+        "text": "We describe what we expect of a federated wiki site drawing on some early documentation and reading of the source code. We aspire to be more informative than definitive."
+      },
+      "date": 1490574236949
+    },
+    {
+      "type": "edit",
+      "id": "a5abce71bc2f0d9d",
+      "item": {
+        "type": "paragraph",
+        "id": "a5abce71bc2f0d9d",
+        "text": "We describe what we expect of a federated wiki site drawing on some early documentation and reading of the source code. We aspire to be more informative than definitive though this could change."
+      },
+      "date": 1490574287155
+    },
+    {
+      "type": "add",
+      "id": "77614290da61ace4",
+      "item": {
+        "type": "paragraph",
+        "id": "77614290da61ace4",
+        "text": "[[Historical Documentation]]"
+      },
+      "after": "a5abce71bc2f0d9d",
+      "date": 1490574321961
+    },
+    {
+      "type": "add",
+      "id": "50f93b93d386a37e",
+      "item": {
+        "type": "paragraph",
+        "id": "50f93b93d386a37e",
+        "text": "[[Item Fields]]"
+      },
+      "after": "77614290da61ace4",
+      "date": 1490575078034
+    },
+    {
+      "type": "add",
+      "id": "10d632f1c8b79206",
+      "item": {
+        "type": "paragraph",
+        "id": "10d632f1c8b79206",
+        "text": "[[Action Fields]]"
+      },
+      "after": "50f93b93d386a37e",
+      "date": 1490575089239
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "eef301b55f24bdf3"
+      },
+      "id": "eef301b55f24bdf3",
+      "type": "add",
+      "after": "10d632f1c8b79206",
+      "date": 1490576568680
+    },
+    {
+      "type": "edit",
+      "id": "eef301b55f24bdf3",
+      "item": {
+        "type": "pagefold",
+        "id": "eef301b55f24bdf3",
+        "text": "in progress"
+      },
+      "date": 1490576591196
+    },
+    {
+      "type": "move",
+      "order": [
+        "a5abce71bc2f0d9d",
+        "77614290da61ace4",
+        "eef301b55f24bdf3",
+        "50f93b93d386a37e",
+        "10d632f1c8b79206"
+      ],
+      "id": "eef301b55f24bdf3",
+      "date": 1490576594888
+    },
+    {
+      "type": "move",
+      "order": [
+        "a5abce71bc2f0d9d",
+        "77614290da61ace4",
+        "eef301b55f24bdf3",
+        "10d632f1c8b79206",
+        "50f93b93d386a37e"
+      ],
+      "id": "10d632f1c8b79206",
+      "date": 1490576597863
+    },
+    {
+      "type": "add",
+      "id": "d239d80fec6e6056",
+      "item": {
+        "type": "paragraph",
+        "id": "d239d80fec6e6056",
+        "text": "[[Page Fields]]"
+      },
+      "after": "50f93b93d386a37e",
+      "date": 1490577667758
+    },
+    {
+      "type": "move",
+      "order": [
+        "a5abce71bc2f0d9d",
+        "77614290da61ace4",
+        "eef301b55f24bdf3",
+        "d239d80fec6e6056",
+        "10d632f1c8b79206",
+        "50f93b93d386a37e"
+      ],
+      "id": "d239d80fec6e6056",
+      "date": 1490577672687
+    },
+    {
+      "type": "move",
+      "order": [
+        "a5abce71bc2f0d9d",
+        "77614290da61ace4",
+        "eef301b55f24bdf3",
+        "d239d80fec6e6056",
+        "50f93b93d386a37e",
+        "10d632f1c8b79206"
+      ],
+      "id": "50f93b93d386a37e",
+      "date": 1490577675845
+    }
+  ]
+}
