@@ -1,0 +1,103 @@
+{
+  "title": "Historical Documentation",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "ea76b5ef013b4d4a",
+      "text": "Federated wiki grew from a working prototype. Server facing tests got us through the transition from ruby to node in coffeescript. We've written behavioral summaries since when asked."
+    },
+    {
+      "type": "paragraph",
+      "id": "f4e255b876af6a6c",
+      "text": "[[JSON Schema]] for a page."
+    },
+    {
+      "type": "paragraph",
+      "id": "ca01d5a63648ef4f",
+      "text": "[[Federating Foreign Servers]] by web protocol."
+    },
+    {
+      "type": "paragraph",
+      "id": "3e578a0922e04b17",
+      "text": "[[Names of Things]] in our glossary."
+    },
+    {
+      "type": "paragraph",
+      "id": "761acd1856b30ddb",
+      "text": "[[Common Names]] used in code."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Historical Documentation",
+        "story": []
+      },
+      "date": 1490574328564
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ea76b5ef013b4d4a"
+      },
+      "id": "ea76b5ef013b4d4a",
+      "type": "add",
+      "date": 1490574335098
+    },
+    {
+      "type": "edit",
+      "id": "ea76b5ef013b4d4a",
+      "item": {
+        "type": "paragraph",
+        "id": "ea76b5ef013b4d4a",
+        "text": "Federated wiki grew from a working prototype. Server facing tests got us through the transition from ruby to node in coffeescript. We've written behavioral summaries since when asked."
+      },
+      "date": 1490574578918
+    },
+    {
+      "type": "add",
+      "id": "f4e255b876af6a6c",
+      "item": {
+        "type": "paragraph",
+        "id": "f4e255b876af6a6c",
+        "text": "[[JSON Schema]] for a page."
+      },
+      "after": "ea76b5ef013b4d4a",
+      "date": 1490574750862
+    },
+    {
+      "type": "add",
+      "id": "ca01d5a63648ef4f",
+      "item": {
+        "type": "paragraph",
+        "id": "ca01d5a63648ef4f",
+        "text": "[[Federating Foreign Servers]] by web protocol."
+      },
+      "after": "f4e255b876af6a6c",
+      "date": 1490574897139
+    },
+    {
+      "type": "add",
+      "id": "3e578a0922e04b17",
+      "item": {
+        "type": "paragraph",
+        "id": "3e578a0922e04b17",
+        "text": "[[Names of Things]] in our glossary."
+      },
+      "after": "ca01d5a63648ef4f",
+      "date": 1490575266184
+    },
+    {
+      "type": "add",
+      "id": "761acd1856b30ddb",
+      "item": {
+        "type": "paragraph",
+        "id": "761acd1856b30ddb",
+        "text": "[[Common Names]] used in code."
+      },
+      "after": "3e578a0922e04b17",
+      "date": 1490575358538
+    }
+  ]
+}
